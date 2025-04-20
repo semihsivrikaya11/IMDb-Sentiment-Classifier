@@ -121,12 +121,12 @@ IMDb-Sentiment-Classifier/
 ├── data/
 │   └── train.csv              ← Labeled dataset (sample)
 ├── model/                     ← Trained model files (not included in repo)
+├── app.py                     ← Gradio demo script (for HF Spaces)
 ├── train.py                   ← Training script
 ├── predict.py                 ← Inference script
 ├── requirements.txt           ← Dependencies
 └── README.md
 ```
----
 
 ## How to Train the Model
 
