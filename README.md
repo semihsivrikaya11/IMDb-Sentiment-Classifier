@@ -116,21 +116,16 @@ This project uses the DistilBERT transformer model to perform sentiment analysis
 
 ## Project Structure
 
+```
 IMDb-Sentiment-Classifier/
 ├── data/
-│   └── train.csv              - Labeled dataset (sample)
-├── model/                     - Trained model files (generated after training)
-├── outputs/
-│   └── logs/                  - Training logs
-├── src/
-│   ├── data_utils.py          - Data loading functions
-│   ├── dataset.py             - Custom dataset class
-│   └── model_utils.py         - Model loading utilities
-├── train.py                   - Training script
-├── predict.py                 - Inference script
-├── requirements.txt           - Python dependencies
+│   └── train.csv              ← Labeled dataset (sample)
+├── model/                     ← Trained model files (not included in repo)
+├── train.py                   ← Training script
+├── predict.py                 ← Inference script
+├── requirements.txt           ← Dependencies
 └── README.md
-
+```
 ---
 
 ## How to Train the Model
