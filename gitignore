@@ -1,0 +1,27 @@
+# Model files and logs
+model/
+outputs/logs/
+*.safetensors
+*.pt
+*.onnx
+
+# Jupyter and checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+.env
+venv/
+.envrc
+
+# Colab/Gradio artifacts
+*.huggingface
+.DS_Store
+
+# Raw data files
+data/raw/
